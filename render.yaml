@@ -7,7 +7,7 @@ services:
     url: docker.io/hlohaus789/g4f:latest
   plan: free
   envVars:
-  - key: G4F_NO_GUI
+  - key: G4F_NO_GUI,G4F_PROXY
     sync: false
   region: oregon
 version: "1"
