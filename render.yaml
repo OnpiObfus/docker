@@ -1,0 +1,13 @@
+# Exported from Render on 2024-09-25T05:43:20Z
+services:
+- type: web
+  name: g4f
+  runtime: image
+  image:
+    url: docker.io/hlohaus789/g4f:latest
+  plan: free
+  envVars:
+  - key: G4F_NO_GUI
+    sync: false
+  region: oregon
+version: "1"
